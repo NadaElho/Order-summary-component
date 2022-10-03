@@ -8,10 +8,10 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color:  hsl(225, 100%, 94%);
     min-height: 100vh;
     font-family: 'Red Hat Display', sans-serif;
     background: url("./images/pattern-background-desktop.svg");
+    background-color:  hsl(225, 100%, 94%);
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -26,6 +26,7 @@ main{
     border-radius: 16px;
     overflow: hidden;
     margin: 20px;
+    box-shadow: 0 20px 10px hsl(227, 74%, 88%);
 }
 main img.hero{
     width: 100%;
