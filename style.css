@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  hsl(225, 100%, 94%);
+    min-height: 100vh;
+    font-family: 'Red Hat Display', sans-serif;
+    background: url("./images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+main{
+    width: 450px;
+    text-align: center;
+    background-color: hsl(225, 100%, 98%);
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+    border-radius: 16px;
+    overflow: hidden;
+    margin: 20px;
+}
+main img.hero{
+    width: 100%;
+}
+main .box{
+    padding: 25px;
+}
+main .box h1{
+    margin: 20px;
+    color: hsl(223, 47%, 23%);
+}
+main .box p{
+    font-size: 16px;
+    line-height: 1.6;
+    color: hsl(224, 23%, 55%);
+    margin-bottom: 20px;
+}
+main .box .music{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+main .box .music .price{
+    display: flex;
+    flex-direction: column;
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+}
+main .box .music .price span{
+    color: hsl(224, 23%, 55%);
+    font-weight: 500;
+}
+main .box .music .music-name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+main .box .music a{
+    color: hsl(245, 75%, 52%);
+}
+main .box .music a:hover{
+    text-decoration: none;
+    color: hsl(245, 83%, 69%);
+}
+main .box button{
+    border: none;
+    background-color: hsl(245, 75%, 52%);
+    cursor: pointer;
+    color: hsl(225, 100%, 94%);
+    padding: 15px;
+    width: 100%;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+    border-radius: 16px;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 30px 0;
+    box-shadow: 0 10px 10px hsl(246, 88%, 94%);
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+main .box button:hover{
+    background-color: hsl(224, 23%, 55%);
+}
+main .box .cancel{
+    cursor: pointer;
+    color: hsl(224, 23%, 55%);
+    font-weight: 900;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+main .box .cancel:hover{
+    color: hsl(223, 47%, 23%);
+}
+@media (max-width: 900px) {
+    body{
+        background: url("./images/pattern-background-mobile.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+}
